@@ -1,0 +1,19 @@
+.col {
+    color:gainsboro;
+}
+
+a {
+    text-decoration: none;
+  }
+
+#fila-conferencia {
+    background-image: url("recursos/ba1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
