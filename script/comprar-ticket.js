@@ -19,7 +19,7 @@ function updateCantidad(){
             porcentaje = 0.5;
             break;
         case "2":
-            porcentaje = 0.15;
+            porcentaje = 0.3;
             break;
         default:
             porcentaje = 1;
