@@ -26,7 +26,7 @@ function updateCantidad(){
             break;
     }
  
-    document.getElementById("total").innerHTML = cantidad * porcentaje;
+    document.getElementById("total").innerHTML = (cantidad * 200) * porcentaje;
 
 }
 
