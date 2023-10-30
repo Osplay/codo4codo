@@ -8,7 +8,7 @@ function updateCantidad(){
     var porcentaje = 1;
     var cantidad = 0;
 
-    cantidad = parseInt(document.getElementById("cantidad").value) || 0;
+    cantidad = Math.abs(parseInt(document.getElementById("cantidad").value)) || 0;
     porcentaje = document.getElementById("categoria").value;
 
     switch(porcentaje){
