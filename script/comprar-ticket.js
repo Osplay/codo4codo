@@ -13,13 +13,13 @@ function updateCantidad(){
 
     switch(porcentaje){
         case "0":
-            porcentaje = 0.8;
+            porcentaje = 0.2;
             break;
         case "1":
             porcentaje = 0.5;
             break;
         case "2":
-            porcentaje = 0.15;
+            porcentaje = 0.85;
             break;
         default:
             porcentaje = 1;
@@ -37,5 +37,5 @@ function clickBorrar(){
 }
 
 function clickResumen(){
-    updateCantidad(); // F
+    updateCantidad(); // this is a comment
 }
